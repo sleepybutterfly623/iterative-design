@@ -1,0 +1,197 @@
+section {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+.header {
+    padding-bottom: 5vh;
+}
+.entry{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.accordion-item{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.card{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+div {
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+#overview-sec{
+    background-color: rgb(140, 176, 149);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#low-fi-sec {
+    background-color: rgb(78, 100, 83);
+    color: white;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+#hifi-sec {
+    border-style: dotted;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    border-color: black;
+    border-width: 4px;
+}
+
+#user-sec{
+    background-color: rgb(130, 167, 130);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    color: black;
+}
+#view-video-sec{
+    padding-top: 8vh;
+}
+#conclusion-sec{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    color: black;
+}
+.card-body{
+    width: 100%;
+}
+
+#to-view {
+    padding-top: 3vh;
+}
+
+#user-header {
+    padding-bottom: 3vh;
+}
+#sketches-sec{
+    background-color: #4a634a(149, 150, 145, 0.881) !important;
+    color: rgb(35, 95, 47);
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    border-style: solid;
+    border-color:rgb(35, 95, 47) !important;
+    border-width: 4px !important;
+}
+
+
+#submission{
+    padding: 20px;
+    background-color: #BFD8BF;
+}
+
+
+h3{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sean_sketches,.kelly_sketches,.rachel_sketches, .thomas_sketches,
+ .students, .tutors, .parents, .videos{
+    display: flex;
+}
+.col{
+    flex:33.33%;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+#crit {
+    width: 80vw;
+}
+
+.colHalf{
+    flex: 50%;
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.image-gallery{
+    width: 30rem;
+    
+    padding: 12px;
+}
+
+.caption{
+    font-style: italic;
+    padding: 0 12px 20px 12px;
+}
+
+
+.accordion{
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.low-fi-gal {
+    width: 23rem;
+}
+.caption{
+    width: 15rem;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(35, 95, 47);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+  
+.nav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+  
+.nav a:hover {
+    background-color: white;
+    color: rgb(35, 95, 47);
+}
+  
+.nav .icon {
+    display: none;
+}
+  
+@media screen and (max-width: 800px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+      float: left;
+      display: block;
+    }
+}
+  
+@media screen and (max-width: 800px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .nav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+footer{
+    font-style: italic;
+    text-align: left;
+    font-size: 15px;
+    background-color: #BFD8BF;
+}
